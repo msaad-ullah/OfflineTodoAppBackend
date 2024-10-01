@@ -4,7 +4,7 @@
 
 1. Install dependencies:
 ```
-npm i
+yarn
 ```
 
 2. Get your MongoDB connection uri string and put it in the connectDb function in `index.js` file:
@@ -16,7 +16,7 @@ const response = await mongoose.connect(
 
 3. Run the project:
 ```
-npm run dev
+yarn
 ```
 
 
